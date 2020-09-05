@@ -53,6 +53,4 @@ Simply donwload the alfredworkflow file and then open it to import to the alfred
 
 ![Alfred Logo](https://i.pinimg.com/originals/5c/23/a6/5c23a6723d3b19e892985fd918cf0aab.png)
 
-Link: [Alfred](https://www.alfredapp.com/).
-
-*Notes:* You need to [buy the Powerpack](https://buy.alfredapp.com/) to use this workflow.
+The software can be downloaded [here](https://www.alfredapp.com/). You need to [buy the Powerpack](https://buy.alfredapp.com/) to use this workflow.
