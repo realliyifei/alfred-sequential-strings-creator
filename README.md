@@ -6,6 +6,8 @@
 
 This simple workflow lets you create a series of sequential strings, horizontally or vertically. Useful in todo apps, note-taking apps, etc.
 
+<img src="./gif_examples/SequentialStrings_Example_Notes.gif"  width="400">
+
 ## Examples
 
 It supports the sequence of either integer or one-digit float.
@@ -33,7 +35,7 @@ The input format is `strings {number-number} strings`, where curly braces work a
     chapter 15 today
     ```
 
-## Demos
+## More Demos
 
 It's also helpful when intergrating with other apps. 
 
