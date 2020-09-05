@@ -4,13 +4,13 @@
 
 # Sequential Strings Creator (Mac Alfred Workflow)
 
-This simple workflow lets you create a series of sequential strings, such as "hw1 hw2 hw3 " by "hw{1-3} ", etc., horizontally or vertically. Useful in todo apps, note-taking apps, etc.
+This simple workflow lets you create a series of sequential strings, horizontally or vertically. Useful in todo apps, note-taking apps, etc.
+
+## Examples
 
 It supports the sequence of either integer or one-digit float.
 
 The input format is `strings {number-number} strings`, where curly braces work as determinators.
-
-## Examples
 
 * Type `hw{1-3} ` after trigger keyword, and choose *horizontally*, it creates:
 
@@ -51,7 +51,7 @@ The possibility is ***unlimited***!
 
 ## Install this workflow
 
-Simply donwload the alfredworkflow file and then open it to import to the alfred.
+Simply donwload the [alfredworkflow file](https://github.com/yli/Alfred-Sequential-Strings-Creator/blob/master/Sequential_Strings_Creator.alfredworkflow) and then open it to import to the alfred.
 
 ## Software: Alfred (Mac)
 
