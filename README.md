@@ -47,7 +47,7 @@ The possibility is ***unlimited***!
 
 ## Install this workflow
 
-Simply donwload the alfredworkflow file and then open it tos import to the alfred.
+Simply donwload the alfredworkflow file and then open it to import to the alfred.
 
 ## Software: Alfred (Mac)
 
