@@ -1,4 +1,4 @@
-# Sequential Strings Creator (Mac Alfred)
+Link:equential Strings Creator (Mac Alfred)
 
 This simple workflow lets you create a series of sequential strings, such as "hw1 hw2 hw3 " by "hw{1-3} ", etc., horizontally or vertically. Useful in todo apps, note-taking apps, etc.
 
@@ -53,6 +53,6 @@ Simply donwload the alfredworkflow file and then open it to import to the alfred
 
 ![Alfred Logo](https://i.pinimg.com/originals/5c/23/a6/5c23a6723d3b19e892985fd918cf0aab.png)
 
-**Install:** Download and open file using [Alfred](https://www.alfredapp.com/).
+Link: [Alfred](https://www.alfredapp.com/).
 
 *Notes:* You need to [buy the Powerpack](https://buy.alfredapp.com/) to use this workflow.
