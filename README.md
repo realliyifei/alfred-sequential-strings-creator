@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="./icon.png" width="128" height="128">
+</h1>
+
 # Sequential Strings Creator (Mac Alfred Workflow)
 
 This simple workflow lets you create a series of sequential strings, such as "hw1 hw2 hw3 " by "hw{1-3} ", etc., horizontally or vertically. Useful in todo apps, note-taking apps, etc.
