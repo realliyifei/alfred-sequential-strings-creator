@@ -6,7 +6,9 @@
 
 This simple workflow lets you create a series of sequential strings, horizontally or vertically. Useful in todo apps, note-taking apps, etc.
 
-<img src="./gifs/SequentialStrings_Demo_Notes.gif"  width="400">
+<h1 align="center">
+  <img src="./gifs/SequentialStrings_Demo_Notes.gif"  width="400">
+</h1>
 
 ## Examples
 
@@ -41,11 +43,15 @@ It's also helpful when intergrating with other apps.
 
 We can create a series of tasks in todo apps like `Things 3` quickly.
 
-<img src="./gifs/SequentialStrings_Demo_Things.gif" width="400">
+<h1 align="center">
+  <img src="./gifs/SequentialStrings_Demo_Things.gif" width="400">
+</h1> 
 
 We can create a series of headers of the table in the note-taking apps like `OneNote` conveniently.
 
-<img src="./gifs/SequentialStrings_Demo_OneNote.gif" width="400">
+<h1 align="center">
+  <img src="./gifs/SequentialStrings_Demo_OneNote.gif" width="400">
+</h1>
 
 The possibility is ***unlimited***!
 
