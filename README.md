@@ -10,6 +10,10 @@ This simple workflow lets you create a series of sequential strings, horizontall
   <img src="./gifs/SequentialStrings_Demo_Notes.gif"  width="400">
 </h1>
 
+## Download
+
+Download alfredworkflow file directly from [the releases page](https://github.com/yli/Alfred-Sequential-Strings-Creator/releases), make sure to download the latest release. 
+
 ## Examples
 
 It supports the sequence of either integer or one-digit float.
@@ -56,10 +60,6 @@ We can create a series of headers of the table in the note-taking apps like `One
 The possibility is ***unlimited***!
 
 ---
-
-## Install this workflow
-
-Simply donwload the [alfredworkflow file](https://github.com/yli/Alfred-Sequential-Strings-Creator/blob/master/Sequential_Strings_Creator.alfredworkflow) and then open it to import to the alfred.
 
 ## Software: Alfred (Mac)
 
