@@ -15,7 +15,7 @@ def main(wf):
         wf.add_item(title=result_str_h, subtitle=subtitle, arg=result_str_h, valid=True)
         
     except:
-        wf.add_item("Invalid input. format: strings {number-number} strings")
+        wf.add_item("Invalid input. Format: strings {number-number} strings")
     
     wf.send_feedback() 
     
