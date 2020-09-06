@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>yli.sequntialstrings</string>
+	<string>com.yli.SequentialStringsCreator</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -42,6 +42,25 @@
 	<string>Sequential Strings Creator</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>388CFD06-E7A7-4BBA-BF94-986EA172BCD3</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -95,25 +114,6 @@
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>388CFD06-E7A7-4BBA-BF94-986EA172BCD3</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
@@ -135,17 +135,19 @@
 
 It supports the sequence of either integer or one-digit float.
 
-The input format is `strings {number-number} strings`, where curly braces work as determinators.
+The input format is `strings {number-number} strings`, where curly braces work as identifiers.
 
-For more examples and demos, please see the github website.</string>
+For more examples and demos, please see the github website:
+
+https://github.com/yli/Alfred-Sequential-Strings-Creator</string>
 	<key>uidata</key>
 	<dict>
 		<key>388CFD06-E7A7-4BBA-BF94-986EA172BCD3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>355</integer>
 			<key>ypos</key>
-			<integer>85</integer>
+			<integer>40</integer>
 		</dict>
 		<key>9694FA0C-9C10-4AD7-960E-CA7565260D2A</key>
 		<dict>
@@ -156,6 +158,8 @@ For more examples and demos, please see the github website.</string>
 		</dict>
 		<key>E1106D25-E01C-4170-882F-DEC535EDA136</key>
 		<dict>
+			<key>note</key>
+			<string>Create a series of sequential strings, such as "hw1 hw2 hw3 " by "hw{1-3} ", horizontally or vertically.</string>
 			<key>xpos</key>
 			<integer>90</integer>
 			<key>ypos</key>
@@ -165,7 +169,7 @@ For more examples and demos, please see the github website.</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/yli/Alfred-Sequential-Strings-Creator</string>
 </dict>
