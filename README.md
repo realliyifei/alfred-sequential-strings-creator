@@ -18,7 +18,7 @@ Download alfredworkflow file directly from [the releases page](https://github.co
 
 It supports the sequence of either integer or one-digit float.
 
-The input format is `strings {number-number} strings`, where curly braces work as determinators.
+The input format is `strings {number-number} strings`, where curly braces work as identifiers.
 
 * Type `hw{1-3} ` after trigger keyword, and choose *horizontally*, it creates:
 
