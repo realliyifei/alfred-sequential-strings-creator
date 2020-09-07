@@ -91,7 +91,7 @@ def isint(x):
         return a == b
 
 if __name__ == '__main__':
-    # create a workflow3 boject
+    # create a workflow3 object
     wf = Workflow3(
         update_settings = UPDATE_SETTINGS,
         help_url = HELP_URL,
