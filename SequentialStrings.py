@@ -4,8 +4,6 @@
 # MIT Licence. See http://opensource.org/licenses/MIT
 #
 # Created on 2020-09-01
-#
-# Alfred-Workflow: https://www.deanishe.net/alfred-workflow/index.html
 
 import sys
 from workflow import Workflow3

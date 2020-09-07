@@ -66,3 +66,7 @@ The possibility is ***unlimited***!
 ![Alfred Logo](https://i.pinimg.com/originals/5c/23/a6/5c23a6723d3b19e892985fd918cf0aab.png)
 
 The software can be downloaded [here](https://www.alfredapp.com/). You need to [buy the Powerpack](https://buy.alfredapp.com/) to use this workflow.
+
+## Credit & Licence
+
+* Core Library depends on the work-of-art-library [deanishe/alfred-workflow](https://github.com/deanishe/alfred-workflow)
