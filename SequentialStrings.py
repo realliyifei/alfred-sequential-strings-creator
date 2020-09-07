@@ -21,15 +21,12 @@ def main(wf):
     
 def sequential_strings_creator(query, join_string):
     """
-    This function generates a series of sequential strings 
-    It supports the sequence of either integer or one-digit float
+    Generates a series of sequential strings, supporting either integer or one-digit float
     
-    :param query: input from alfred workflow input, expects curly braces work as discriminators 
-    :type query: string
-    :param join_string: string that seperates the sequentail strings
-    :type join_string: string
-    
-    :rtype result: string
+    :param str query: The whole string input from alfred workflow input
+    :param str join_string: String that seperates the sequentail string
+    :reutrn: A series of sequential strings
+    :rtype: string
     """
     str_before_num = query[:query.index('{')]
     str_after_num = query[query.index('}')+1:]
