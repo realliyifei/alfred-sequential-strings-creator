@@ -1,18 +1,43 @@
-# -*- coding: utf-8 -*-
-from workflow import Workflow3 # Alfred-Workflow: https://www.deanishe.net/alfred-workflow/index.html
+# encoding: utf-8 
+#
+# Copyright (c) 2020 https://github.com/yli/
+# MIT Licence. See http://opensource.org/licenses/MIT
+#
+# Created on 2020-09-01
+#
+# Alfred-Workflow: https://www.deanishe.net/alfred-workflow/index.html
+
 import sys
+from workflow import Workflow3
+
+__version__ = '1.1.0'
+
+# GitHub repo to check for updates
+UPDATE_SETTINGS = {
+    'github_slug': 'yli/Alfred-Sequential-Strings-Creator',
+    'version': __version__
+}
+
+# GitHub Issues
+HELP_URL = 'https://github.com/yli/Alfred-Sequential-Strings-Creator/issues'
 
 def main(wf):
+    """Run the workflow"""
+    # Update settings format
+    if wf.update_available:
+        wf.start_update()
+    
+    # Main    
     try:
         query = wf.args[0]
         
         subtitle_vertical = "Press 'Enter' and copy to clipboard vertically"
         result_str_v = sequential_strings_creator(query, '\n')
-        wf.add_item(title=result_str_v, subtitle=subtitle_vertical, arg=result_str_v, valid=True)   
+        wf.add_item(title = result_str_v, subtitle = subtitle_vertical, arg = result_str_v, valid = True)   
                 
         subtitle = "Press 'Enter' and copy to clipboard horizontally"
         result_str_h = sequential_strings_creator(query, ' ')
-        wf.add_item(title=result_str_h, subtitle=subtitle, arg=result_str_h, valid=True)
+        wf.add_item(title = result_str_h, subtitle = subtitle, arg = result_str_h, valid = True)
         
     except:
         wf.add_item("Invalid input. Format: strings {number-number} strings")
@@ -66,5 +91,9 @@ def isint(x):
         return a == b
 
 if __name__ == '__main__':
-    wf = Workflow3() # create a workflow3 boject
-    sys.exit(wf.run(main)) # run
+    # create a workflow3 boject
+    wf = Workflow3(
+        update_settings = UPDATE_SETTINGS,
+        help_url = HELP_URL,
+    ) 
+    sys.exit(wf.run(main)) 
