@@ -6,14 +6,11 @@
 # Created on 2020-09-01
 
 import sys
-from workflow import Workflow3
-
-__version__ = '1.1.0'
+from workflow import Workflow3, ICON_INFO
 
 # GitHub repo to check for updates
 UPDATE_SETTINGS = {
-    'github_slug': 'yli/Alfred-Sequential-Strings-Creator',
-    'version': __version__
+    'github_slug': 'yli/Alfred-Sequential-Strings-Creator'
 }
 
 # GitHub Issues
@@ -23,7 +20,12 @@ def main(wf):
     """Run the workflow"""
     # Update settings format
     if wf.update_available:
-        wf.start_update()
+        # Add a notification to top of Script Filter results
+        wf.add_item('Workflow update is available',
+                    'Press ↩ or ⇥ to install',
+                    autocomplete = 'workflow:update',
+                    valid = False,
+                    icon = ICON_INFO)
     
     # Main    
     try:
