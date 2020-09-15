@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.yli.SequentialStringsCreator</string>
+	<string>com.realliyifei.SequentialStringsCreator</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -33,7 +33,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Li, Yifei</string>
+	<string>Li, Yi-Fei</string>
 	<key>description</key>
 	<string>Create Sequential Strings such as "hw1 hw2 hw3" horizontally or vertically</string>
 	<key>disabled</key>
@@ -139,7 +139,7 @@ The input format is `strings {number-number} strings`, where curly braces work a
 
 For more examples and demos, please see the github website:
 
-https://github.com/yli/Alfred-Sequential-Strings-Creator</string>
+https://github.com/realliyifei/Alfred-Sequential-Strings-Creator</string>
 	<key>uidata</key>
 	<dict>
 		<key>388CFD06-E7A7-4BBA-BF94-986EA172BCD3</key>
@@ -166,11 +166,9 @@ https://github.com/yli/Alfred-Sequential-Strings-Creator</string>
 			<integer>85</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.1.1</string>
+	<string>1.1.2</string>
 	<key>webaddress</key>
-	<string>https://github.com/yli/Alfred-Sequential-Strings-Creator</string>
+	<string>https://github.com/realliyifei/Alfred-Sequential-Strings-Creator</string>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 # encoding: utf-8 
 #
-# Copyright (c) 2020 https://github.com/yli/
+# Copyright (c) 2020 https://github.com/realliyifei/
 # MIT Licence. See http://opensource.org/licenses/MIT
 #
 # Created on 2020-09-01
@@ -10,11 +10,11 @@ from workflow import Workflow3, ICON_INFO
 
 # GitHub repo to check for updates
 UPDATE_SETTINGS = {
-    'github_slug': 'yli/Alfred-Sequential-Strings-Creator'
+    'github_slug': 'realliyifei/Alfred-Sequential-Strings-Creator'
 }
 
 # GitHub Issues
-HELP_URL = 'https://github.com/yli/Alfred-Sequential-Strings-Creator/issues'
+HELP_URL = 'https://github.com/realliyifei/Alfred-Sequential-Strings-Creator/issues'
 
 def main(wf):
     """Run the workflow"""
