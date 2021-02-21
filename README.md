@@ -26,7 +26,7 @@ The input format is `strings {number-number} strings`, where curly braces work a
     hw1 hw2 hw3
     ```
 
-* Type `section {1.8-2,2}, ` after trigger keyword, and choose *horizontally*, it creates:
+* Type `section {1.8-2.2}, ` after trigger keyword, and choose *horizontally*, it creates:
     
     ```
     section 1.8, section 1.9, section 2.0, section 2.1, section 2.2
