@@ -12,7 +12,7 @@ This simple workflow lets you create a series of sequential strings, such as "hw
 
 ## Download
 
-Download alfredworkflow file directly from [the releases page](https://github.com/yli/Alfred-Sequential-Strings-Creator/releases), make sure to download the latest release. 
+Download alfredworkflow file directly from [the releases page](https://github.com/realliyifei/Alfred-Sequential-Strings-Creator/releases), make sure to download the latest release. 
 
 ## Examples
 
