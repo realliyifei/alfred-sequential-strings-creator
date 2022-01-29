@@ -57,7 +57,7 @@ We can create a series of headers of the table in the note-taking apps like `One
   <img src="./gifs/SequentialStrings_Demo_OneNote.gif" width="400">
 </h1>
 
-The possibility is ***unlimited***!
+The possibilities is **endless**!
 
 ---
 
